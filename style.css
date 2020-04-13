@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0;
+	font-family: arial;
+	font-size: 17px;
+	color: white;
+	line-height: 1.6;
+}
+
+#showcase{
+	background-image:url("https://files.tripstodiscover.com/files/2018/12/31870325_1672741082801620_6042587603251757056_o.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px;
+}
+
+#showcase h1{
+	font-size: 100px;
+	line-height: 1.2;
+	font-family: 'Lovers Quarrel', cursive;
+
+}
+
+#showcase p{
+	font-family: 'Lovers Quarrel', cursive;
+	font-size: 64px;
+}
+
+#showcase .button{
+	font-size: 35px;
+	font-family: 'Lovers Quarrel', cursive;
+	text-decoration: none;
+	color: white;
+	border:white 3px; 
+	padding-bottom: 10px 20px;
+	border-radius:10px;
+	margin-top: 20px;
+	width: 100px;
+}
+
+#showcase .button:hover{
+	background-color: #99ccff;
+	color: white;
+}
+
